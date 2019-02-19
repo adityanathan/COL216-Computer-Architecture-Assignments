@@ -1,0 +1,6 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../COL216_assn_5.srcs/sources_1/imports/COL216_assn_5/clock_divider.vhf"
+vhdl xil_defaultlib  "../../../COL216_assn_5.srcs/sources_1/imports/COL216_assn_5/debouncer.vhf"
+
+# Do not sort compile order
+nosort
