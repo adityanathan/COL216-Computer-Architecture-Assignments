@@ -1,0 +1,16 @@
+0.6
+2016.4
+Jan 23 2017
+19:19:20
+/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.sim/sim_1/behav/glbl.v,1485222234,verilog,,,,glbl,,,,,,,,
+/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/imports/COL216_Assn_7/ALU_new.vhd,1554796455,vhdl,/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/imports/COL216_Assn_7/data_path_new.vhd,,,alu,,,,,,,,
+/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/imports/COL216_Assn_7/data_path_new.vhd,1554801924,vhdl,/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/imports/COL216_Assn_7/test_bench.vhf,,,main,,,,,,,,
+/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/imports/COL216_Assn_7/register_file.vhd,1554554427,vhdl,/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/imports/COL216_Assn_7/data_path_new.vhd,,,reg_file,,,,,,,,
+/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/imports/COL216_Assn_7/test_bench.vhf,1554535440,vhdl,,,,testbench,,,,,,,,
+/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/imports/COL216_Assn_8/shifter.vhf,1554558082,vhdl,/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/imports/COL216_Assn_7/data_path_new.vhd,,,shifter,,,,,,,,
+/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/imports/Imported files from Assn7/clock_divider.vhf,1554535295,vhdl,/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/imports/Imported files from Assn7/debouncer.vhf,,,clock_divider,,,,,,,,
+/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/imports/Imported files from Assn7/control_state_fsm.vhd,1554551422,vhdl,/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/imports/COL216_Assn_7/data_path_new.vhd;/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/imports/Imported files from Assn7/exec_state_fsm.vhd,,,control_fsm;control_state_pack,,,,,,,,
+/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/imports/Imported files from Assn7/debouncer.vhf,1550567213,vhdl,/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/imports/COL216_Assn_7/data_path_new.vhd,,,debouncer,,,,,,,,
+/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/imports/Imported files from Assn7/exec_state_fsm.vhd,1554551519,vhdl,/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/imports/COL216_Assn_7/data_path_new.vhd,,,exec_state_fsm,,,,,,,,
+/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/imports/Imported files from Assn7/instr_decoder.vhf,1554796300,vhdl,/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/imports/COL216_Assn_7/ALU_new.vhd;/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/imports/COL216_Assn_7/data_path_new.vhd;/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/imports/Imported files from Assn7/control_state_fsm.vhd;/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/imports/Imported files from Assn7/exec_state_fsm.vhd,,,inst_pack;instr_decoder,,,,,,,,
+/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/ip/unified_memory/sim/unified_memory.v,1554803180,verilog,,,,unified_memory,,,,,,,,

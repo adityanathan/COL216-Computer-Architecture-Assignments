@@ -1,0 +1,24 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/ip/unified_memory/sim/unified_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module unified_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/imports/Imported files from Assn7/instr_decoder.vhf" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity instr_decoder
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/imports/Imported files from Assn7/clock_divider.vhf" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity clock_divider
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/imports/Imported files from Assn7/control_state_fsm.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity control_fsm
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/imports/Imported files from Assn7/exec_state_fsm.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity exec_state_fsm
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/imports/Imported files from Assn7/debouncer.vhf" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity debouncer
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/imports/COL216_Assn_7/register_file.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity reg_file
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/imports/COL216_Assn_7/ALU_new.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity alu
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/imports/COL216_Assn_8/shifter.vhf" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity shifter
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/imports/COL216_Assn_7/data_path_new.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity main
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/imports/COL216_Assn_7/test_bench.vhf" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity testbench

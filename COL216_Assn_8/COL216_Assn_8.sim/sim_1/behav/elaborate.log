@@ -1,0 +1,33 @@
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2016.4/bin/unwrapped/lnx64.o/xelab -wto 5d000201503b4214911ba6b368700b2b --debug typical --relax --mt 8 -L xil_defaultlib -L dist_mem_gen_v8_0_11 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running fuse with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.control_state_pack
+Compiling package xil_defaultlib.inst_pack
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling module dist_mem_gen_v8_0_11.dist_mem_gen_v8_0_11(C_FAMILY="a...
+Compiling module xil_defaultlib.unified_memory
+Compiling architecture comb of entity xil_defaultlib.alu [alu_default]
+Compiling architecture comb of entity xil_defaultlib.shifter [shifter_default]
+Compiling architecture behavioral of entity xil_defaultlib.instr_decoder [instr_decoder_default]
+Compiling architecture seq of entity xil_defaultlib.control_fsm [control_fsm_default]
+Compiling architecture behavioral of entity xil_defaultlib.clock_divider [clock_divider_default]
+Compiling architecture behavioral of entity xil_defaultlib.debouncer [debouncer_default]
+Compiling architecture behav of entity xil_defaultlib.exec_state_fsm [exec_state_fsm_default]
+Compiling architecture comb of entity xil_defaultlib.reg_file [reg_file_default]
+Compiling architecture behav of entity xil_defaultlib.main [main_default]
+Compiling architecture behav of entity xil_defaultlib.testbench
+Built simulation snapshot testbench_behav

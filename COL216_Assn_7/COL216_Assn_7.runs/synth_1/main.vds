@@ -1,0 +1,454 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Apr  3 21:22:58 2019
+# Process ID: 7936
+# Current directory: /home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.runs/synth_1
+# Command line: vivado -log main.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source main.tcl
+# Log file: /home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.runs/synth_1/main.vds
+# Journal file: /home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source main.tcl -notrace
+Command: synth_design -top main -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 7950 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1091.801 ; gain = 169.086 ; free physical = 3174 ; free virtual = 13807
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'main' [/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.srcs/sources_1/imports/COL216_Assn_7/Data_path.vhd:17]
+INFO: [Synth 8-3491] module 'unified_memory' declared at '/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.runs/synth_1/.Xil/Vivado-7936-godavari/realtime/unified_memory_stub.v:6' bound to instance 'data_memory' of component 'unified_memory' [/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.srcs/sources_1/imports/COL216_Assn_7/Data_path.vhd:93]
+INFO: [Synth 8-638] synthesizing module 'unified_memory' [/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.runs/synth_1/.Xil/Vivado-7936-godavari/realtime/unified_memory_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'unified_memory' (1#1) [/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.runs/synth_1/.Xil/Vivado-7936-godavari/realtime/unified_memory_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'alu' [/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.srcs/sources_1/imports/COL216_Assn_7/ALU.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'alu' (2#1) [/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.srcs/sources_1/imports/COL216_Assn_7/ALU.vhd:20]
+INFO: [Synth 8-638] synthesizing module 'instr_decoder' [/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.srcs/sources_1/imports/COL216_Assn_7/instr_decoder.vhf:22]
+INFO: [Synth 8-256] done synthesizing module 'instr_decoder' (3#1) [/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.srcs/sources_1/imports/COL216_Assn_7/instr_decoder.vhf:22]
+INFO: [Synth 8-638] synthesizing module 'control_fsm' [/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.srcs/sources_1/imports/COL216_Assn_7/control_state_fsm.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'control_fsm' (4#1) [/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.srcs/sources_1/imports/COL216_Assn_7/control_state_fsm.vhd:15]
+INFO: [Synth 8-638] synthesizing module 'debouncer' [/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.srcs/sources_1/imports/COL216_Assn_7/debouncer.vhf:14]
+INFO: [Synth 8-638] synthesizing module 'clock_divider' [/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.srcs/sources_1/imports/COL216_Assn_7/clock_divider.vhf:13]
+WARNING: [Synth 8-614] signal 'p' is read in the process but is not in the sensitivity list [/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.srcs/sources_1/imports/COL216_Assn_7/clock_divider.vhf:20]
+WARNING: [Synth 8-614] signal 'temp' is read in the process but is not in the sensitivity list [/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.srcs/sources_1/imports/COL216_Assn_7/clock_divider.vhf:20]
+INFO: [Synth 8-256] done synthesizing module 'clock_divider' (5#1) [/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.srcs/sources_1/imports/COL216_Assn_7/clock_divider.vhf:13]
+INFO: [Synth 8-256] done synthesizing module 'debouncer' (6#1) [/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.srcs/sources_1/imports/COL216_Assn_7/debouncer.vhf:14]
+INFO: [Synth 8-638] synthesizing module 'exec_state_fsm' [/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.srcs/sources_1/imports/COL216_Assn_7/exec_state_fsm.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'exec_state_fsm' (7#1) [/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.srcs/sources_1/imports/COL216_Assn_7/exec_state_fsm.vhd:21]
+INFO: [Synth 8-638] synthesizing module 'reg_file' [/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.srcs/sources_1/imports/COL216_Assn_7/register_file.vhd:29]
+WARNING: [Synth 8-614] signal 'start' is read in the process but is not in the sensitivity list [/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.srcs/sources_1/imports/COL216_Assn_7/register_file.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'reg_file' (8#1) [/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.srcs/sources_1/imports/COL216_Assn_7/register_file.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'main' (9#1) [/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.srcs/sources_1/imports/COL216_Assn_7/Data_path.vhd:17]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1133.270 ; gain = 210.555 ; free physical = 3132 ; free virtual = 13764
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1133.270 ; gain = 210.555 ; free physical = 3130 ; free virtual = 13763
+---------------------------------------------------------------------------------
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'unified_memory' instantiated as 'data_memory' [/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.srcs/sources_1/imports/COL216_Assn_7/Data_path.vhd:93]
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.runs/synth_1/.Xil/Vivado-7936-godavari/dcp/unified_memory_in_context.xdc] for cell 'data_memory'
+Finished Parsing XDC File [/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.runs/synth_1/.Xil/Vivado-7936-godavari/dcp/unified_memory_in_context.xdc] for cell 'data_memory'
+Parsing XDC File [/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.srcs/constrs_1/imports/COL216_Assn_7/assn_7.xdc]
+Finished Parsing XDC File [/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.srcs/constrs_1/imports/COL216_Assn_7/assn_7.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.srcs/constrs_1/imports/COL216_Assn_7/assn_7.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/main_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/main_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1467.000 ; gain = 0.000 ; free physical = 2963 ; free virtual = 13596
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'data_memory' at clock pin 'clk' is different from the actual clock period '10.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1467.000 ; gain = 544.285 ; free physical = 2962 ; free virtual = 13595
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1467.000 ; gain = 544.285 ; free physical = 2962 ; free virtual = 13595
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for data_memory. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1467.000 ; gain = 544.285 ; free physical = 2962 ; free virtual = 13595
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "ld_bit_temp" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ld_bit_temp" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ld_bit_temp" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ld_bit_temp" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "i_decoded" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'control_state_reg' in module 'control_fsm'
+INFO: [Synth 8-5544] ROM "control_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "control_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "p" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "temp" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-802] inferred FSM for state register 'exec_state_reg' in module 'exec_state_fsm'
+INFO: [Synth 8-5544] ROM "exec_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'z_storage_reg' [/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.srcs/sources_1/imports/COL216_Assn_7/ALU.vhd:34]
+WARNING: [Synth 8-327] inferring latch for variable 'ld_bit_temp_reg' [/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.srcs/sources_1/imports/COL216_Assn_7/instr_decoder.vhf:72]
+WARNING: [Synth 8-327] inferring latch for variable 'control_state_out_reg' [/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.srcs/sources_1/imports/COL216_Assn_7/control_state_fsm.vhd:60]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   fetch |                             0000 |                             0001
+                  decode |                             0001 |                             0010
+                   arith |                             0010 |                             0011
+                  res2rf |                             0011 |                             0111
+                    addr |                             0100 |                             0100
+                  mem_wr |                             0101 |                             1000
+                  mem_rd |                             0110 |                             1001
+                  mem2rf |                             0111 |                             1010
+                     brn |                             1000 |                             0101
+                    halt |                             1001 |                             0110
+                  iSTATE |                             1010 |                             0000
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'control_state_reg' using encoding 'sequential' in module 'control_fsm'
+WARNING: [Synth 8-327] inferring latch for variable 'temp_reg' [/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.srcs/sources_1/imports/COL216_Assn_7/clock_divider.vhf:18]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 initial |                              000 |                              000
+                    cont |                              001 |                              011
+                 onestep |                              010 |                              001
+                oneinstr |                              011 |                              010
+                    done |                              100 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'exec_state_reg' using encoding 'sequential' in module 'exec_state_fsm'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1467.000 ; gain = 544.285 ; free physical = 2947 ; free virtual = 13580
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input     32 Bit       Adders := 1     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 4     
++---Registers : 
+	               32 Bit    Registers := 10    
+	                1 Bit    Registers := 4     
++---RAMs : 
+	              512 Bit         RAMs := 1     
++---Muxes : 
+	   5 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 12    
+	   2 Input     16 Bit        Muxes := 25    
+	   2 Input      4 Bit        Muxes := 2     
+	  11 Input      4 Bit        Muxes := 1     
+	  12 Input      4 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 2     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 10    
+	  12 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module main 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 6     
+	   2 Input     16 Bit        Muxes := 25    
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+Module alu 
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input     32 Bit       Adders := 1     
+	   3 Input     32 Bit       Adders := 1     
++---Muxes : 
+	   5 Input     32 Bit        Muxes := 1     
+Module instr_decoder 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module control_fsm 
+Detailed RTL Component Info : 
++---Muxes : 
+	  11 Input      4 Bit        Muxes := 1     
+	  12 Input      4 Bit        Muxes := 1     
+	  12 Input      1 Bit        Muxes := 1     
+Module clock_divider 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module debouncer 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module exec_state_fsm 
+Detailed RTL Component Info : 
++---Muxes : 
+	   5 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 1     
+Module reg_file 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
++---RAMs : 
+	              512 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "debounce1/clock_div/p" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "debounce1/clock_div/temp" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "debounce2/clock_div/p" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "debounce2/clock_div/temp" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "debounce3/clock_div/p" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "debounce3/clock_div/temp" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "debounce4/clock_div/p" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "debounce4/clock_div/temp" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1467.000 ; gain = 544.285 ; free physical = 2915 ; free virtual = 13548
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+-----------------------+-----------+----------------------+---------------+
+|Module Name | RTL Object            | Inference | Size (Depth x Width) | Primitives    | 
++------------+-----------------------+-----------+----------------------+---------------+
+|main        | register_file/reg_reg | Implied   | 16 x 32              | RAM32M x 18   | 
++------------+-----------------------+-----------+----------------------+---------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1467.000 ; gain = 544.285 ; free physical = 2876 ; free virtual = 13508
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1538.195 ; gain = 615.480 ; free physical = 2795 ; free virtual = 13428
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1588.219 ; gain = 665.504 ; free physical = 2745 ; free virtual = 13378
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1588.219 ; gain = 665.504 ; free physical = 2745 ; free virtual = 13378
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1588.219 ; gain = 665.504 ; free physical = 2745 ; free virtual = 13378
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1588.219 ; gain = 665.504 ; free physical = 2745 ; free virtual = 13378
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1588.219 ; gain = 665.504 ; free physical = 2745 ; free virtual = 13378
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1588.219 ; gain = 665.504 ; free physical = 2745 ; free virtual = 13378
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1588.219 ; gain = 665.504 ; free physical = 2745 ; free virtual = 13378
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+---------------+----------+
+|      |BlackBox name  |Instances |
++------+---------------+----------+
+|1     |unified_memory |         1|
++------+---------------+----------+
+
+Report Cell Usage: 
++------+---------------+------+
+|      |Cell           |Count |
++------+---------------+------+
+|1     |unified_memory |     1|
+|2     |BUFG           |     1|
+|3     |CARRY4         |    48|
+|4     |LUT1           |   132|
+|5     |LUT2           |    15|
+|6     |LUT3           |    83|
+|7     |LUT4           |    89|
+|8     |LUT5           |   134|
+|9     |LUT6           |   343|
+|10    |MUXF7          |     1|
+|11    |RAM32M         |    18|
+|12    |FDCE           |    39|
+|13    |FDPE           |     1|
+|14    |FDRE           |   292|
+|15    |LD             |     8|
+|16    |LDC            |     3|
+|17    |IBUF           |    21|
+|18    |OBUF           |    16|
++------+---------------+------+
+
+Report Instance Areas: 
++------+--------------------+----------------+------+
+|      |Instance            |Module          |Cells |
++------+--------------------+----------------+------+
+|1     |top                 |                |  1276|
+|2     |  alu_inst          |alu             |    17|
+|3     |  control_state_fsm |control_fsm     |   318|
+|4     |  debounce1         |debouncer       |    84|
+|5     |    clock_div       |clock_divider_5 |    83|
+|6     |  debounce2         |debouncer_0     |    84|
+|7     |    clock_div       |clock_divider_4 |    83|
+|8     |  debounce3         |debouncer_1     |    86|
+|9     |    clock_div       |clock_divider_3 |    83|
+|10    |  debounce4         |debouncer_2     |    84|
+|11    |    clock_div       |clock_divider   |    83|
+|12    |  exec_fsm          |exec_state_fsm  |    18|
+|13    |  instr_decoder     |instr_decoder   |     5|
+|14    |  register_file     |reg_file        |   227|
++------+--------------------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1588.219 ; gain = 665.504 ; free physical = 2745 ; free virtual = 13378
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1588.219 ; gain = 226.688 ; free physical = 2745 ; free virtual = 13378
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1588.227 ; gain = 665.512 ; free physical = 2745 ; free virtual = 13378
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 98 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 29 instances were transformed.
+  LD => LDCE: 8 instances
+  LDC => LDCE: 3 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 18 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+61 Infos, 9 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1588.227 ; gain = 577.008 ; free physical = 2746 ; free virtual = 13379
+INFO: [Common 17-1381] The checkpoint '/home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.runs/synth_1/main.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.12 . Memory (MB): peak = 1612.230 ; gain = 0.000 ; free physical = 2745 ; free virtual = 13378
+INFO: [Common 17-206] Exiting Vivado at Wed Apr  3 21:23:34 2019...

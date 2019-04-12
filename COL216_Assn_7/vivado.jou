@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Mar 12 14:38:38 2019
+# Process ID: 16122
+# Current directory: /home/dual/cs5170403/COL216/COL216_Assn_7
+# Command line: vivado
+# Log file: /home/dual/cs5170403/COL216/COL216_Assn_7/vivado.log
+# Journal file: /home/dual/cs5170403/COL216/COL216_Assn_7/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/dual/cs5170403/COL216/COL216_Assn_4/COL216_Assn_4.xpr
+open_hw
+connect_hw_server
+open_hw_target
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {/home/dual/cs5170403/Downloads/Assn_4_5_6/Assn 6/test_bench.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]

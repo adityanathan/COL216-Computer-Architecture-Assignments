@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="control_state_pack" />
+            <top_module name="glbl" />
+            <top_module name="inst_pack" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1266833334fs"></ZoomStartTime>
+      <ZoomEndTime time="1405833335fs"></ZoomEndTime>
+      <Cursor1Time time="1290000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="149"></NameColumnWidth>
+      <ValueColumnWidth column_width="128"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="106" />
+   <wvobject type="array" fp_name="/testbench/data_p/led">
+      <obj_property name="ElementShortName">led[15:0]</obj_property>
+      <obj_property name="ObjectShortName">led[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/slide_switches">
+      <obj_property name="ElementShortName">slide_switches[15:0]</obj_property>
+      <obj_property name="ObjectShortName">slide_switches[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/go">
+      <obj_property name="ElementShortName">go</obj_property>
+      <obj_property name="ObjectShortName">go</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/step">
+      <obj_property name="ElementShortName">step</obj_property>
+      <obj_property name="ObjectShortName">step</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/instr">
+      <obj_property name="ElementShortName">instr</obj_property>
+      <obj_property name="ObjectShortName">instr</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/clock">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/alu_op1">
+      <obj_property name="ElementShortName">alu_op1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_op1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/alu_op2">
+      <obj_property name="ElementShortName">alu_op2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_op2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/alu_result">
+      <obj_property name="ElementShortName">alu_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/testbench/data_p/alu_op_code">
+      <obj_property name="ElementShortName">alu_op_code</obj_property>
+      <obj_property name="ObjectShortName">alu_op_code</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/register_file/reg">
+      <obj_property name="ElementShortName">reg[0:15][31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg[0:15][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/testbench/data_p/register_file/reg[0]">
+         <obj_property name="ElementShortName">[0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/data_p/register_file/reg[1]">
+         <obj_property name="ElementShortName">[1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/data_p/register_file/reg[2]">
+         <obj_property name="ElementShortName">[2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/data_p/register_file/reg[3]">
+         <obj_property name="ElementShortName">[3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/data_p/register_file/reg[4]">
+         <obj_property name="ElementShortName">[4][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/data_p/register_file/reg[5]">
+         <obj_property name="ElementShortName">[5][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/data_p/register_file/reg[6]">
+         <obj_property name="ElementShortName">[6][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/data_p/register_file/reg[7]">
+         <obj_property name="ElementShortName">[7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/data_p/register_file/reg[8]">
+         <obj_property name="ElementShortName">[8][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/data_p/register_file/reg[9]">
+         <obj_property name="ElementShortName">[9][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/data_p/register_file/reg[10]">
+         <obj_property name="ElementShortName">[10][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/data_p/register_file/reg[11]">
+         <obj_property name="ElementShortName">[11][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/data_p/register_file/reg[12]">
+         <obj_property name="ElementShortName">[12][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/data_p/register_file/reg[13]">
+         <obj_property name="ElementShortName">[13][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/data_p/register_file/reg[14]">
+         <obj_property name="ElementShortName">[14][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/data_p/register_file/reg[15]">
+         <obj_property name="ElementShortName">[15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/alu_flags_in">
+      <obj_property name="ElementShortName">alu_flags_in[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_flags_in[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/alu_flags_out">
+      <obj_property name="ElementShortName">alu_flags_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_flags_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/c">
+      <obj_property name="ElementShortName">c</obj_property>
+      <obj_property name="ObjectShortName">c</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/n">
+      <obj_property name="ElementShortName">n</obj_property>
+      <obj_property name="ObjectShortName">n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/v">
+      <obj_property name="ElementShortName">v</obj_property>
+      <obj_property name="ObjectShortName">v</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/z">
+      <obj_property name="ElementShortName">z</obj_property>
+      <obj_property name="ObjectShortName">z</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/flags">
+      <obj_property name="ElementShortName">flags[3:0]</obj_property>
+      <obj_property name="ObjectShortName">flags[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/FW">
+      <obj_property name="ElementShortName">FW</obj_property>
+      <obj_property name="ObjectShortName">FW</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/shift_in">
+      <obj_property name="ElementShortName">shift_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/shift_out">
+      <obj_property name="ElementShortName">shift_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/shift_amt">
+      <obj_property name="ElementShortName">shift_amt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_amt[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/shift_type">
+      <obj_property name="ElementShortName">shift_type[1:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_type[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/shift_carry">
+      <obj_property name="ElementShortName">shift_carry</obj_property>
+      <obj_property name="ObjectShortName">shift_carry</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/instr_instruction">
+      <obj_property name="ElementShortName">instr_instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_instruction[31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/instr_cond">
+      <obj_property name="ElementShortName">instr_cond[3:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_cond[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/instr_I">
+      <obj_property name="ElementShortName">instr_I</obj_property>
+      <obj_property name="ObjectShortName">instr_I</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/instr_Rn">
+      <obj_property name="ElementShortName">instr_Rn[3:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_Rn[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/instr_Rd">
+      <obj_property name="ElementShortName">instr_Rd[3:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_Rd[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/instr_Rm">
+      <obj_property name="ElementShortName">instr_Rm[3:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_Rm[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/instr_operand2">
+      <obj_property name="ElementShortName">instr_operand2[11:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_operand2[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/instr_S">
+      <obj_property name="ElementShortName">instr_S</obj_property>
+      <obj_property name="ObjectShortName">instr_S</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/instr_offset">
+      <obj_property name="ElementShortName">instr_offset[23:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_offset[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/testbench/data_p/instr_decoded">
+      <obj_property name="ElementShortName">instr_decoded</obj_property>
+      <obj_property name="ObjectShortName">instr_decoded</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/testbench/data_p/instr_class">
+      <obj_property name="ElementShortName">instr_class</obj_property>
+      <obj_property name="ObjectShortName">instr_class</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/instr_ld">
+      <obj_property name="ElementShortName">instr_ld</obj_property>
+      <obj_property name="ObjectShortName">instr_ld</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/instr_U">
+      <obj_property name="ElementShortName">instr_U</obj_property>
+      <obj_property name="ObjectShortName">instr_U</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/instr_shift_bit">
+      <obj_property name="ElementShortName">instr_shift_bit</obj_property>
+      <obj_property name="ObjectShortName">instr_shift_bit</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/instr_sh_amt">
+      <obj_property name="ElementShortName">instr_sh_amt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_sh_amt[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/instr_sh_type">
+      <obj_property name="ElementShortName">instr_sh_type[1:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_sh_type[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/instr_sh_reg">
+      <obj_property name="ElementShortName">instr_sh_reg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_sh_reg[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/testbench/data_p/exec_state">
+      <obj_property name="ElementShortName">exec_state</obj_property>
+      <obj_property name="ObjectShortName">exec_state</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/testbench/data_p/c_instr_class">
+      <obj_property name="ElementShortName">c_instr_class</obj_property>
+      <obj_property name="ObjectShortName">c_instr_class</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/testbench/data_p/control_state">
+      <obj_property name="ElementShortName">control_state</obj_property>
+      <obj_property name="ObjectShortName">control_state</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/go_d">
+      <obj_property name="ElementShortName">go_d</obj_property>
+      <obj_property name="ObjectShortName">go_d</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/step_d">
+      <obj_property name="ElementShortName">step_d</obj_property>
+      <obj_property name="ObjectShortName">step_d</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/instr_d">
+      <obj_property name="ElementShortName">instr_d</obj_property>
+      <obj_property name="ObjectShortName">instr_d</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/reset_d">
+      <obj_property name="ElementShortName">reset_d</obj_property>
+      <obj_property name="ObjectShortName">reset_d</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/r_read_addr1">
+      <obj_property name="ElementShortName">r_read_addr1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">r_read_addr1[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/r_data_out1">
+      <obj_property name="ElementShortName">r_data_out1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_data_out1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/r_read_addr2">
+      <obj_property name="ElementShortName">r_read_addr2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">r_read_addr2[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/r_data_out2">
+      <obj_property name="ElementShortName">r_data_out2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_data_out2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/r_write_addr">
+      <obj_property name="ElementShortName">r_write_addr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">r_write_addr[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/r_write_data">
+      <obj_property name="ElementShortName">r_write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_write_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/r_we">
+      <obj_property name="ElementShortName">r_we</obj_property>
+      <obj_property name="ObjectShortName">r_we</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/r_pc_in">
+      <obj_property name="ElementShortName">r_pc_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_pc_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/r_pc_out">
+      <obj_property name="ElementShortName">r_pc_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_pc_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/r_pc_we">
+      <obj_property name="ElementShortName">r_pc_we</obj_property>
+      <obj_property name="ObjectShortName">r_pc_we</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/IR">
+      <obj_property name="ElementShortName">IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IR[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/DR">
+      <obj_property name="ElementShortName">DR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DR[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/A">
+      <obj_property name="ElementShortName">A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/B">
+      <obj_property name="ElementShortName">B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/Creg">
+      <obj_property name="ElementShortName">Creg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Creg[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/D">
+      <obj_property name="ElementShortName">D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">D[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/RES">
+      <obj_property name="ElementShortName">RES[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RES[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/PW">
+      <obj_property name="ElementShortName">PW</obj_property>
+      <obj_property name="ObjectShortName">PW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/IorD">
+      <obj_property name="ElementShortName">IorD</obj_property>
+      <obj_property name="ObjectShortName">IorD</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/MW">
+      <obj_property name="ElementShortName">MW</obj_property>
+      <obj_property name="ObjectShortName">MW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/DW2">
+      <obj_property name="ElementShortName">DW2</obj_property>
+      <obj_property name="ObjectShortName">DW2</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/IW">
+      <obj_property name="ElementShortName">IW</obj_property>
+      <obj_property name="ObjectShortName">IW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/DW">
+      <obj_property name="ElementShortName">DW</obj_property>
+      <obj_property name="ObjectShortName">DW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/M2R">
+      <obj_property name="ElementShortName">M2R</obj_property>
+      <obj_property name="ObjectShortName">M2R</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/RW">
+      <obj_property name="ElementShortName">RW</obj_property>
+      <obj_property name="ObjectShortName">RW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/AW">
+      <obj_property name="ElementShortName">AW</obj_property>
+      <obj_property name="ObjectShortName">AW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/BW">
+      <obj_property name="ElementShortName">BW</obj_property>
+      <obj_property name="ObjectShortName">BW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/Asrc1">
+      <obj_property name="ElementShortName">Asrc1</obj_property>
+      <obj_property name="ObjectShortName">Asrc1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/Fset">
+      <obj_property name="ElementShortName">Fset</obj_property>
+      <obj_property name="ObjectShortName">Fset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/ReW">
+      <obj_property name="ElementShortName">ReW</obj_property>
+      <obj_property name="ObjectShortName">ReW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/SW1">
+      <obj_property name="ElementShortName">SW1</obj_property>
+      <obj_property name="ObjectShortName">SW1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/SW3">
+      <obj_property name="ElementShortName">SW3</obj_property>
+      <obj_property name="ObjectShortName">SW3</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/CW">
+      <obj_property name="ElementShortName">CW</obj_property>
+      <obj_property name="ObjectShortName">CW</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/SW2">
+      <obj_property name="ElementShortName">SW2[1:0]</obj_property>
+      <obj_property name="ObjectShortName">SW2[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/Rsrc">
+      <obj_property name="ElementShortName">Rsrc[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Rsrc[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/Asrc2">
+      <obj_property name="ElementShortName">Asrc2[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Asrc2[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/data_address">
+      <obj_property name="ElementShortName">data_address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_address[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/data_out">
+      <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/write_enable">
+      <obj_property name="ElementShortName">write_enable</obj_property>
+      <obj_property name="ObjectShortName">write_enable</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/data_in">
+      <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/reg_obs">
+      <obj_property name="ElementShortName">reg_obs[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_obs[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/register_file/clock">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/register_file/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/register_file/read_addr1">
+      <obj_property name="ElementShortName">read_addr1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">read_addr1[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/register_file/data_out1">
+      <obj_property name="ElementShortName">data_out1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/register_file/read_addr2">
+      <obj_property name="ElementShortName">read_addr2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">read_addr2[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/register_file/data_out2">
+      <obj_property name="ElementShortName">data_out2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/register_file/write_addr_input">
+      <obj_property name="ElementShortName">write_addr_input[3:0]</obj_property>
+      <obj_property name="ObjectShortName">write_addr_input[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/register_file/write_input_data">
+      <obj_property name="ElementShortName">write_input_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_input_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/register_file/write_enable">
+      <obj_property name="ElementShortName">write_enable</obj_property>
+      <obj_property name="ObjectShortName">write_enable</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/register_file/pc_data_in">
+      <obj_property name="ElementShortName">pc_data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/register_file/pc_data_out">
+      <obj_property name="ElementShortName">pc_data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/register_file/pc_we">
+      <obj_property name="ElementShortName">pc_we</obj_property>
+      <obj_property name="ObjectShortName">pc_we</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/register_file/read_addr_obs">
+      <obj_property name="ElementShortName">read_addr_obs[3:0]</obj_property>
+      <obj_property name="ObjectShortName">read_addr_obs[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/register_file/data_out_obs">
+      <obj_property name="ElementShortName">data_out_obs[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out_obs[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/data_p/register_file/start">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_p/register_file/pc">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+   </wvobject>
+</wave_config>

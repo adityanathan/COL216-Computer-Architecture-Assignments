@@ -1,0 +1,93 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (lin64) Build 1756540 Mon Jan 23 19:11:19 MST 2017
+| Date         : Fri Apr 12 18:21:14 2019
+| Host         : sabarmati running 64-bit Ubuntu 16.04.6 LTS
+| Command      : report_control_sets -verbose -file main_control_sets_placed.rpt
+| Design       : main
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    28 |
+| Unused register locations in slices containing registers |    96 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              14 |           14 |
+| No           | No                    | Yes                    |               1 |            1 |
+| No           | Yes                   | No                     |             125 |           33 |
+| Yes          | No                    | No                     |             197 |           97 |
+| Yes          | No                    | Yes                    |              47 |           25 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------------------------+---------------------------------------------------+--------------------------------------+------------------+----------------+
+|           Clock Signal           |                   Enable Signal                   |           Set/Reset Signal           | Slice Load Count | Bel Load Count |
++----------------------------------+---------------------------------------------------+--------------------------------------+------------------+----------------+
+|  debounce1/clock_div/temp        |                                                   |                                      |                1 |              1 |
+|  debounce1/clock_div/clock_100hz |                                                   |                                      |                1 |              1 |
+|  debounce4/clock_div/clock_100hz |                                                   |                                      |                1 |              1 |
+|  debounce3/pc_reg[7]_P           |                                                   | debounce3/pc_reg[7]_C                |                1 |              1 |
+|  debounce3/clock_div/temp        |                                                   |                                      |                1 |              1 |
+|  debounce3/clock_div/clock_100hz |                                                   |                                      |                1 |              1 |
+|  debounce2/clock_div/temp        |                                                   |                                      |                1 |              1 |
+|  debounce4/clock_div/temp        |                                                   |                                      |                1 |              1 |
+|  debounce2/clock_div/clock_100hz |                                                   |                                      |                1 |              1 |
+|  clock_IBUF_BUFG                 | control_state_fsm/pc_reg[7]_P[0]                  | debounce3/pc_reg[7]_P                |                1 |              1 |
+|  clock_IBUF_BUFG                 |                                                   | debounce3/pc_reg[7]_C                |                1 |              1 |
+|  clock_IBUF_BUFG                 | exec_fsm/FSM_sequential_exec_state_reg[2]_i_1_n_0 | debounce3/reset_d                    |                2 |              3 |
+|  clock_IBUF_BUFG                 | control_state_fsm/CW                              |                                      |                2 |              5 |
+|  clock_IBUF_BUFG                 |                                                   |                                      |                6 |              6 |
+|  clock_IBUF_BUFG                 | exec_fsm/FSM_onehot_control_state_reg[12][0]      | debounce3/reset_d                    |                8 |             12 |
+|  clock_IBUF_BUFG                 |                                                   | debounce4/clock_div/p[31]_i_1__2_n_0 |                8 |             31 |
+|  clock_IBUF_BUFG                 |                                                   | debounce1/clock_div/p[31]_i_1_n_0    |                8 |             31 |
+|  clock_IBUF_BUFG                 |                                                   | debounce3/clock_div/p[31]_i_1__1_n_0 |                8 |             31 |
+|  clock_IBUF_BUFG                 | control_state_fsm/pc_reg[7]_P[0]                  | debounce3/reset_d                    |               14 |             31 |
+|  clock_IBUF_BUFG                 |                                                   | debounce2/clock_div/p[31]_i_1__0_n_0 |                8 |             31 |
+|  clock_IBUF_BUFG                 | control_state_fsm/IR_reg[0][0]                    |                                      |               16 |             32 |
+|  clock_IBUF_BUFG                 | control_state_fsm/E[0]                            |                                      |                6 |             32 |
+|  clock_IBUF_BUFG                 | control_state_fsm/DR_reg[0]_0[0]                  |                                      |               16 |             32 |
+|  clock_IBUF_BUFG                 | control_state_fsm/B_reg[0][0]                     |                                      |                9 |             32 |
+|  clock_IBUF_BUFG                 | control_state_fsm/RES_reg[0][0]                   |                                      |               20 |             32 |
+|  clock_IBUF_BUFG                 | exec_fsm/E[0]                                     |                                      |               28 |             32 |
+|  clock_IBUF_BUFG                 | control_state_fsm/we                              |                                      |               32 |            128 |
+|  clock_IBUF_BUFG                 | control_state_fsm/p_0_in                          |                                      |               18 |            144 |
++----------------------------------+---------------------------------------------------+--------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                    11 |
+| 3      |                     1 |
+| 5      |                     1 |
+| 6      |                     1 |
+| 12     |                     1 |
+| 16+    |                    13 |
++--------+-----------------------+
+
+

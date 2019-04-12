@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Feb 26 13:50:58 2019
+# Process ID: 15305
+# Current directory: /home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.runs/impl_1
+# Command line: vivado -log main.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source main.tcl -notrace
+# Log file: /home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.runs/impl_1/main.vdi
+# Journal file: /home/dual/cs5170403/COL216/COL216_Assn_7/COL216_Assn_7.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source main.tcl -notrace

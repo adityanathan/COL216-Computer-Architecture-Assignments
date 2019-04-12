@@ -1,0 +1,57 @@
+
+*** Running vivado
+    with args -log unified_memory.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source unified_memory.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source unified_memory.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1090.797 ; gain = 168.086 ; free physical = 2648 ; free virtual = 13841
+INFO: [Synth 8-638] synthesizing module 'unified_memory' [/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/ip/unified_memory/synth/unified_memory.vhd:69]
+INFO: [Synth 8-256] done synthesizing module 'unified_memory' (4#1) [/home/dual/cs5170403/COL216/COL216_Assn_8/COL216_Assn_8.srcs/sources_1/ip/unified_memory/synth/unified_memory.vhd:69]
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1136.266 ; gain = 213.555 ; free physical = 2602 ; free virtual = 13795
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1136.266 ; gain = 213.555 ; free physical = 2601 ; free virtual = 13794
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1442.496 ; gain = 0.000 ; free physical = 2441 ; free virtual = 13634
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1442.496 ; gain = 519.785 ; free physical = 2440 ; free virtual = 13633
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1442.496 ; gain = 519.785 ; free physical = 2440 ; free virtual = 13633
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1442.496 ; gain = 519.785 ; free physical = 2440 ; free virtual = 13633
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1442.496 ; gain = 519.785 ; free physical = 2440 ; free virtual = 13633
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1442.496 ; gain = 519.785 ; free physical = 2440 ; free virtual = 13633
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++---------------------+-----------------------------------------------------------+----------------+----------------------+------------------+
+|Module Name          | RTL Object                                                | Inference      | Size (Depth x Width) | Primitives       | 
++---------------------+-----------------------------------------------------------+----------------+----------------------+------------------+
+|dist_mem_gen_v8_0_11 | synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg | User Attribute | 256 x 32             | RAM256X1S x 32   | 
++---------------------+-----------------------------------------------------------+----------------+----------------------+------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1442.496 ; gain = 519.785 ; free physical = 2390 ; free virtual = 13583
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1442.496 ; gain = 519.785 ; free physical = 2390 ; free virtual = 13583
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1442.496 ; gain = 519.785 ; free physical = 2371 ; free virtual = 13564
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1442.496 ; gain = 519.785 ; free physical = 2371 ; free virtual = 13564
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1442.496 ; gain = 519.785 ; free physical = 2371 ; free virtual = 13564
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1442.496 ; gain = 519.785 ; free physical = 2371 ; free virtual = 13564
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1442.496 ; gain = 519.785 ; free physical = 2371 ; free virtual = 13564
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1442.496 ; gain = 519.785 ; free physical = 2371 ; free virtual = 13564
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1442.496 ; gain = 519.785 ; free physical = 2371 ; free virtual = 13564
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |RAM256X1S |    32|
+|2     |FDRE      |    32|
++------+----------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1442.496 ; gain = 519.785 ; free physical = 2371 ; free virtual = 13564
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1442.504 ; gain = 431.289 ; free physical = 2365 ; free virtual = 13558

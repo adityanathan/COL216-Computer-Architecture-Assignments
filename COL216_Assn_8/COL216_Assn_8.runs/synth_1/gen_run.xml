@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1555073396">
+  <File Type="VDS-TIMING-PB" Name="main_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="main_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="main.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="main_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="main_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="main_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="main.vds"/>
+  <File Type="PA-TCL" Name="main.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/Imported files from Assn7/instr_decoder.vhf">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Imported files from Assn7/instr_decoder.vhf"/>
+        <Attr Name="ImportTime" Val="1551101871"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Imported files from Assn7/clock_divider.vhf">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Imported files from Assn7/clock_divider.vhf"/>
+        <Attr Name="ImportTime" Val="1550567184"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Imported files from Assn7/control_state_fsm.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Imported files from Assn7/control_state_fsm.vhd"/>
+        <Attr Name="ImportTime" Val="1551370310"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Imported files from Assn7/exec_state_fsm.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Imported files from Assn7/exec_state_fsm.vhd"/>
+        <Attr Name="ImportTime" Val="1550996831"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Imported files from Assn7/debouncer.vhf">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Imported files from Assn7/debouncer.vhf"/>
+        <Attr Name="ImportTime" Val="1550567213"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/COL216_Assn_7/register_file.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../COL216_Assn_7/COL216_Assn_7.srcs/sources_1/imports/COL216_Assn_7/register_file.vhd"/>
+        <Attr Name="ImportTime" Val="1554308115"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/COL216_Assn_7/ALU_new.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/imports/COL216_Assn_7/ALU_new.vhd"/>
+        <Attr Name="ImportTime" Val="1554529503"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/COL216_Assn_8/shifter.vhf">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/shifter.vhf"/>
+        <Attr Name="ImportTime" Val="1552983505"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/COL216_Assn_7/data_path_new.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../COL216_Assn_7/COL216_Assn_7.srcs/sources_1/imports/COL216_Assn_7/data_path_new.vhd"/>
+        <Attr Name="ImportTime" Val="1554475872"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/week8.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../shift.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="main"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/COL216_Assn_7/assn_7.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../COL216_Assn_7/COL216_Assn_7.srcs/constrs_1/imports/COL216_Assn_7/assn_7.xdc"/>
+        <Attr Name="ImportTime" Val="1554803593"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="unified_memory"/>
+</GenRun>
